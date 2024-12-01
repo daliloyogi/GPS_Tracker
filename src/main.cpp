@@ -26,6 +26,7 @@ bool sentLocationUpdate = false;
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
 
+// Variabel GPS
 double latitude, longitude, satellite;
 uint8_t hour;
 
